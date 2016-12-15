@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/* --------- Global Settings --------- */
+
+body {
+    background: #FFFFFF;
+    width: 960px;
+    font: 13px/22px Helvetica, Arial, sans-serif;
+    margin: auto;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: monospace;
+    font-style: normal;
+    text-decoration-color: cadetblue;
+    font-weight: 300;
+}
+
+a {
+    font-style: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+
+
+.mainContent {
+    width: 750px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+#left {
+    float: left;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding-right: 3px;
+}
+
+#right {
+    float: left;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding-left: 3px;
+    border-left: thin solid #999999;
+}
+
+#line {
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-left: thick solid #ff0000;
+    height: 100%;
+}
+
+.list {
+    margin: auto;
+    width: 100%;
+}
+
+.list td {
+    margin: auto;
+}
+
+.listcurrency {
+    margin: auto;
+    text-align: right;
+    color: darkgrey;
+}
+
+.listright {
+    margin: auto;
+    width: 100%;
+}
+
+.listright td {
+    margin: auto;
+}
+
+.listrightcurrency {
+    margin: auto;
+    text-align: left;
+    color: darkgrey;
+}
